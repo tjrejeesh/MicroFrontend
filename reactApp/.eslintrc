@@ -1,0 +1,61 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "rules": {
+    "import/first": 0,
+    "quotes": ["error", "double"],
+    "strict": ["error", "never"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/react-in-jsx-scope": "error",
+    "no-console": "error",
+    "no-debugger": "error",
+    "no-dupe-keys": "error",
+    "eqeqeq": "error",
+    "no-multi-spaces": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-trailing-spaces": "error",
+    "no-tabs": "error",
+    "no-duplicate-imports": "error",
+    "prefer-const": "error",
+    "no-const-assign": "error",
+    "jsx-quotes": "error",
+    "arrow-spacing": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "semi-style": ["error", "last"],
+    "semi": "error",
+    "no-var": "error",
+    "keyword-spacing": "error",
+    "key-spacing": ["error", {"beforeColon": false}],
+    "space-infix-ops": "error",
+    "array-callback-return": "error",
+    "no-lone-blocks": "error",
+    "brace-style": ["error", "1tbs"],
+    "react/jsx-equals-spacing": [
+      "error",
+      "never"
+    ],
+    "padded-blocks": [
+      "error",
+      "never"
+    ]
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "expect": true,
+    "it": true,
+    "describe": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "spyOn": true,
+    "jest": true,
+    "Promise": true,
+    "Set": true
+  }
+}
